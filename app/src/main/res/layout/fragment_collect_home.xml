@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:id="@+id/rl_top"
+        android:background="@color/miyue_common_bg"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+        <TextView
+            android:text="收藏"
+            android:id="@+id/tv_title"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+<RadioGroup
+
+    android:background="@color/miyue_common_bg"
+    android:gravity="center_vertical"
+    android:id="@+id/rg"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <RadioButton
+        android:textSize="16sp"
+        android:checked="true"
+        android:id="@+id/rb1"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:text="歌曲"
+        android:textColor="@drawable/text_color_selector"
+        android:button="@null"
+        android:drawableBottom="@drawable/main_top_selector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RadioButton
+        android:textSize="16sp"
+        android:id="@+id/rb2"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:text="歌单"
+        android:textColor="@drawable/text_color_selector"
+        android:button="@null"
+        android:drawableBottom="@drawable/main_top_selector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RadioButton
+        android:textSize="16sp"
+        android:id="@+id/rb3"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:text="电台"
+        android:textColor="@drawable/text_color_selector"
+        android:button="@null"
+        android:drawableBottom="@drawable/main_top_selector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RadioGroup>
+    <android.support.v4.view.ViewPager
+
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       />
+
+</LinearLayout>

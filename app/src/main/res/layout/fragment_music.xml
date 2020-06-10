@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/miyue_common_bg"
+    android:fitsSystemWindows="true">
+    <RelativeLayout
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_title_height">
+        <ImageView
+            android:id="@+id/title_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:src="@mipmap/title_back" />
+
+    </RelativeLayout>
+
+    <android.support.design.widget.CoordinatorLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.AppBarLayout
+            android:background="@color/miyue_common_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+            >
+            <com.makeramen.roundedimageview.RoundedImageView
+                app:riv_corner_radius="10dp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/iv_image"
+                android:src="@mipmap/bg_music_default"
+                app:layout_scrollFlags="scroll"
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true"
+                android:layout_width="220dp"
+                android:layout_height="220dp" />
+
+            <RelativeLayout
+                app:layout_scrollFlags="scroll"
+                android:layout_marginTop="10dp"
+                android:id="@+id/rlMusicTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true">
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/tvCurrentTime"
+                    style="@style/neteasa_music_time_text_sytle"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    tools:text="01:34" />
+
+                <SeekBar
+                    android:id="@+id/musicSeekBar"
+                    style="@style/neteasa_music_time_seek_bar_sytle"
+                    android:layout_centerInParent="true"
+                    android:layout_toEndOf="@id/tvCurrentTime"
+                    android:layout_toStartOf="@+id/tvTotalTime"
+                    android:paddingEnd="15dp"
+                    android:paddingStart="15dp" />
+
+                <TextView
+                    android:layout_marginRight="20dp"
+                    android:id="@+id/tvTotalTime"
+                    style="@style/neteasa_music_time_text_sytle"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    tools:text="05:34" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:id="@+id/ll_song"
+                android:layout_below="@id/rlMusicTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/song_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/app_name"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/common_textsize_xlarge" />
+
+                <TextView
+                    android:id="@+id/song_subtitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/app_name"
+                    android:textColor="@color/white"
+                    android:ellipsize="marquee"
+                    android:singleLine="true"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:textSize="@dimen/common_textsize_large" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/llPlayOption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ll_song"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:id="@+id/ivLast"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="56dp"
+                    android:src="@mipmap/play_icon_previous_piece" />
+
+                <CheckBox
+
+                    android:id="@+id/ivPlayOrPause"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+
+                    android:layout_centerHorizontal="true"
+                    android:button="@drawable/selector_playorstop" />
+
+                <ImageView
+                    android:id="@+id/ivNext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="56dp"
+                    android:src="@mipmap/play_icon_next_track" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_marginTop="30dp"
+                android:id="@+id/ll_volume"
+                android:layout_below="@id/llPlayOption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_marginLeft="20dp"
+                    android:src="@mipmap/play_icon_volume"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <com.miyue.miyueapp.ui.view.TextThumbSeekBar
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/vertical_seekBar"
+                    style="@style/neteasa_music_time_seek_bar_sytle"
+                    android:thumb="@drawable/view_bar_progress_thumb"
+                    />
+            </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:background="@color/miyue_common_bg2"
+                   android:paddingLeft="20dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:id="@+id/ll_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+                    <ImageView
+                        android:id="@+id/iv_play_type"
+                        android:src="@mipmap/play_icon_shunxu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/tv_type"
+                        android:layout_marginLeft="15dp"
+                        android:text="播放列表"
+                        android:textColor="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/tv_number"
+                        android:layout_marginLeft="8dp"
+                        android:text="(17)"
+                        android:textColor="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+        </android.support.design.widget.AppBarLayout>
+                <View
+                    android:id="@+id/view"
+                    android:layout_below="@id/ll_type"
+                    android:background="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"></View>
+                <android.support.v7.widget.RecyclerView
+                    android:background="@color/miyue_common_bg2"
+                    android:id="@+id/recyclerview"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                    android:layout_below="@id/view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </android.support.v7.widget.RecyclerView>
+    </android.support.design.widget.CoordinatorLayout>
+</LinearLayout>

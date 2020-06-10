@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tab_bottom_Title">
+        <item>收藏</item>
+        <item>我的音乐</item>
+        <item>房间</item>
+
+    </string-array>
+
+    <string-array name="tab_song_Title">
+        <item>歌曲</item>
+        <item>歌单</item>
+        <item>电台</item>
+        <item>榜单</item>
+    </string-array>
+
+    <string-array name="permissions" >
+        <item>请先授权SD卡功能</item>
+        <item>请先授权SD卡功能</item>
+        <item>请先授权SD卡功能</item>
+        <item>请先授权SD卡功能</item>
+        <item>请先授权SD卡功能</item>
+        <item>请先授权SD卡功能</item>
+        <item>请先授权SD卡功能</item>
+        <item>请先授权SD卡功能</item>
+        <item>请先授权SD卡功能,不授权将影响部分功能的使用</item>
+    </string-array>
+
+    <string-array name="song_tab">
+        <item>本机</item>
+        <item>电台FM</item>
+        <item>云音乐</item>
+        <item>豆瓣</item>
+        <item>儿歌</item>
+        <item>酷狗</item>
+    </string-array>
+
+    <string-array name="collectsong_dialog">
+    <item>立即播放</item>
+    <item>添加至下一曲</item>
+    <item>添加到播放列表</item>
+    <item>替换播放列表</item>
+    <item>添加至歌单</item>
+    <item>删除</item>
+    <item>取消</item>
+</string-array>
+    <string-array name="collectsonglist_dialog">
+        <item>替换播放列表</item>
+        <item>添加到播放列表</item>
+        <item>删除歌单</item>
+        <item>取消</item>
+    </string-array>
+
+    <string-array name="collectradio_dialog">
+        <item>立即播放</item>
+        <item>删除电台</item>
+        <item>取消</item>
+    </string-array>
+
+    <string-array name="billbord_dialog">
+        <item>添加至榜单收藏</item>
+        <item>替换播放列表</item>
+        <item>添加到播放列表</item>
+        <item>取消</item>
+    </string-array>
+
+    <string-array name="billborddetail_dialog">
+    <item>立即播放</item>
+    <item>添加至下一曲</item>
+    <item>添加到播放列表</item>
+    <item>替换播放列表</item>
+    <item>收藏至歌单</item>
+    <item>取消</item>
+</string-array>
+
+    <string-array name="songlist_dialog">
+        <item>立即播放</item>
+        <item>添加至下一曲</item>
+        <item>添加到播放列表</item>
+        <item>替换播放列表</item>
+        <item>从歌单中删除</item>
+        <item>取消</item>
+    </string-array>
+
+    <string-array name="addradiocollect_dialog">
+        <item>立即播放</item>
+        <item>收藏至电台</item>
+        <item>取消</item>
+    </string-array>
+
+    <string-array name="recycle_view_Title">
+        <item>定时关闭</item>
+        <item>Aux</item>
+        <item>蓝牙</item>
+        <item>闹钟</item>
+        <item>关于本机</item>
+    </string-array>
+
+    <string-array name="time_stop">//定时关闭
+        <item>不开启</item>
+        <item>10分钟后</item>
+        <item>20分钟后</item>
+        <item>30分钟后</item>
+        <item>40分钟后</item>
+        <item>50分钟后</item>
+        <item>60分钟后</item>
+        <item>自定义</item>
+        <item>关闭定时</item>
+    </string-array>
+</resources>

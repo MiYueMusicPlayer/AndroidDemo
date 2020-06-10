@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">米悦</string>
+
+    <string name="home_exit_app">再按一次退出应用</string>
+    <string name="search_devicelist">选择设备</string>
+    <string name="findno">未发现设备，请刷新重试</string>
+    <string name="music_edit">编辑</string>
+    <string name="music_create">创建歌单</string>
+    <string name="music_title">我的音乐</string>
+    <string name="music_list">歌曲列表</string>
+    <string name="device_select">请选择米悦设备</string>
+    <string name="songlist_select">选择目录</string>
+    <string name="songlist_detial">歌单详情</string>
+    <string name="aux_close">请先关闭aux</string>
+    <string name="bluetooth_close">请先关闭蓝牙</string>
+    <string name="bluetooth_aux_close">请先关闭蓝牙或AUX</string>
+
+    <string name="permission_READ_PHONE_STATE_denied">读取系统状态权限被禁用</string>
+    <string name="permission_granted">权限申请成功</string>
+    <string name="permission_READ_PHONE_STATE_alwaysdenied">无法读取系统状态，请您手动开启。</string>
+    <string name="permission_READ_EXTERNAL_STORAGE_denied">读取外部存储器数据权限被禁用</string>
+    <string name="permission_READ_EXTERNAL_STORAGE_alwaysdenied">无法读取外部存储器数据，请您手动开启</string>
+    <string name="permission_WRITE_EXTERNAL_STORAGE_denied">写入外部存储器数据权限被禁用</string>
+    <string name="permission_WRITE_EXTERNAL_STORAGE_alwaysdenied">无法写入外部存储器数据，请您手动开启</string>
+    <string name="search_hint">输入你想听的</string>
+    <string name="input_search">请输入搜索内容</string>
+    <string name="exit_two_click">再按一次退出程序</string>
+    <string name="search_noresult">找不到你搜索的相关内容</string>
+    <string name="collect">收藏</string>
+    <string name="clear">清空</string>
+    <string name="playtype_circulation">列表循环</string>
+    <string name="playtype_single_cycle">单曲循环</string>
+    <string name="playtype_random">随机播放</string>
+    <string name="min_voc">已经是最小声音了</string>
+    <string name="nolocalDmrDevice">未检测到本地DMR设备信息</string>
+    <string name="dlna_getcontent_fail">获取DLNA内容失败</string>
+    <string name="pullup_2_playing">上拉进入播放界面</string>
+    <string name="dialog_collect_allmusic">您要收藏列表中的所有歌曲吗？</string>
+    <string name="dialog_clear_allmusic">您要清空当前播放列表吗？</string>
+    <string name="playing_musicinfo">正在播放 %s</string>
+    <string name="hasAddBehindPlayingMusic">已加入到下一曲播放</string>
+    <string name="musicIsPlaying">这首歌正在播放</string>
+    <string name="musicIsExsit">这首歌已存在播放列表中</string>
+    <string name="hasAddInPlayingMusic">已加入到播放列表</string>
+    <string name="hasReplaceMusicList">已替换到当前播放列表</string>
+    <string name="dialogtitle_songlist">请选择要添加到的歌单</string>
+    <string name="tip_noSongList">没有歌单，请创建</string>
+    <string name="hasInSongList">该音乐已存在于该歌单中</string>
+    <string name="collectSuccess">收藏成功</string>
+    <string name="createSonglist">新建歌单</string>
+    <string name="no_songList">暂无歌单</string>
+    <string name="no_collectsongs">没有收藏癖的你，去哪里找回忆</string>
+    <string name="no_music">暂无歌曲信息</string>
+    <string name="edithint_input_songlistname">请输入歌单名称</string>
+    <string name="dialog_edittext_empty">歌单名称不能为空</string>
+    <string name="createsonglist_success">新建歌单成功</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="noMusicInSonglist">该歌单中没有歌曲</string>
+    <string name="playing_songlistInfo">正在播放歌单 %s</string>
+    <string name="needDeleteSonglist">确定要删除歌单吗？</string>
+    <string name="needDeleteCollectedMusic">确定要删除该音乐收藏吗？</string>
+    <string name="needDeleteLocalMusicfile">确定要删除该本地音乐文件吗？</string>
+    <string name="songlist_deleted">当前歌单已删除</string>
+    <string name="delete_musicfile">已删除本地音乐文件</string>
+    <string name="network_notavaliable">当前网络不可用</string>
+    <string name="network_abnormal">网络异常</string>
+    <string name="file_notExsit">当前文件不存在</string>
+    <string name="musicNumInSonglist">共%s首歌曲</string>
+    <string name="notSelectSonglist">您尚未选择歌单</string>
+    <string name="waitfor_requesting">加载中,请稍等</string>
+    <string name="room_name">房间</string>
+    <string name="all_audio">对讲</string>
+    <string name="talk_deviceoffline">当前设备已离线，请选择其他设备通话</string>
+    <string name="talk_selfoffline">您的对讲设备已离线，请检查网络后重试</string>
+    <string name="talk_initfailed">对讲服务未启动</string>
+    <string name="room_change">房间切换成功</string>
+    <string name="music_no_info">暂无信息</string>
+    <string name="song_time_stop">定时关闭</string>
+    <string name="clock_sun">周日</string>
+    <string name="clock_mon">周一</string>
+    <string name="clock_tue">周二</string>
+    <string name="clock_wed">周三</string>
+    <string name="clock_thu">周四</string>
+    <string name="clock_fri">周五</string>
+    <string name="clock_sat">周六</string>
+    <string name="clock_date">选择闹钟重复日期</string>
+    <string name="clock_remind_ring">请选择闹钟铃声</string>
+    <string name="errcode_permision">请先授权SD卡权限</string>
+    <string name="refuse">权限被拒绝，无法跳转</string>
+    <string name="app_please_wait">加载中，请稍后</string>
+
+    <!-- fragment_activity_rockchip_blue -->
+    <string name="blue_start_lescan">Start Scan</string>
+    <string name="blue_stop_lescan">Stop Scan</string>
+    <string name="fragment_blue_guide">点击搜索可配置蓝牙设备</string>
+    <string name="no_blue_device_found">没有搜索到可配置蓝牙设备</string>
+    <string name="no_wifi">&lt;Tap to select a wifi&gt;</string>
+    <string name="devices_searched">搜索到可配置设备</string>
+
+    <!-- fragment_activity_rockchip_wifi -->
+    <string name="search_device">Search devices</string>
+    <string name="fragment_wifi_guide">点击搜索可配置Ap设备</string>
+    <string name="no_wifi_device_found">没有搜索到可配置Ap设备</string>
+
+    <!-- dialog text -->
+    <string name="dialog_getting_wifilist">正在获取WIFI列表</string>
+    <string name="dialog_connect_to">正在连接</string>
+    <string name="dialog_wifi_configuring">正在配置WIFI</string>
+
+    <!-- Toast text -->
+    <string name="toast_config_success">配置成功</string>
+    <string name="toast_config_fail">配置失败</string>
+    <string name="select_wifi">Please select a wifi first!</string>
+    <string name="pwd_invalid">Wifi password is invalid, please check!</string>
+    <string name="send_msg_error">发送数据失败</string>
+    <string name="connect_wifi_success">连接成功</string>
+    <string name="connect_wifi_fail">连接失败</string>
+    <string name="need_remove_network_first">不允许应用程序改变其他应用程序创建的网络，请先在设置中忘记此网络</string>
+</resources>

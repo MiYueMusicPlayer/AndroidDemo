@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\BaiduNetdiskDownload\MiYue\Remote\build\intermediates\intermediate-jars\release\classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b2ac06a77d8b2bdaa4dce6f59d93ccac193aa5bf">
+        <dex dex="D:\BaiduNetdiskDownload\MiYue\app\build\intermediates\transforms\preDex\release\72\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\BaiduNetdiskDownload\MiYue\miyuedlna\build\intermediates\intermediate-jars\release\classes.jar"
+        jumboMode="false"
+        min-sdk-version="22"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5d2e00bee4157b90e7eb1389e6b04afb2d4bb9ef">
+        <dex dex="D:\BaiduNetdiskDownload\MiYue\app\build\intermediates\transforms\preDex\release\71\classes.dex" />
+    </item>
+
+</items>

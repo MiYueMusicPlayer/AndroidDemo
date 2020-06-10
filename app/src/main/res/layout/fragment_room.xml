@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:rc="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/miyue_common_bg"
+    android:padding="20dp">
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:id="@+id/rl_top"
+        android:background="@color/miyue_common_bg"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+        <TextView
+            android:text="连接"
+            android:id="@+id/tv_title"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <EditText
+        android:layout_marginTop="@dimen/dp_20"
+        android:textColor="@color/white"
+        android:id="@+id/editText"
+        android:textColorHint="@color/white"
+        android:hint="请输入连接设备的IP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+    <Button
+        android:id="@+id/button"
+        android:layout_gravity="right"
+        android:text="连接"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+</LinearLayout>

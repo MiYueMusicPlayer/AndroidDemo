@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: __local_aars__:C.\Users\Administrator\.gradle\caches\transforms-1\files-1.1\iflyos-app-sdk.aar\92ace30e5042732a394a6b9e5a282178:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/iflyos-app-sdk.aar/92ace30e5042732a394a6b9e5a282178/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/iflyos-app-sdk.aar/92ace30e5042732a394a6b9e5a282178/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/iflyos-app-sdk.aar/92ace30e5042732a394a6b9e5a282178/jars/libs/KGMusicSDK.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/iflyos-app-sdk.aar/92ace30e5042732a394a6b9e5a282178/jars/libs/voiceplatform_lib_normal_1067.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

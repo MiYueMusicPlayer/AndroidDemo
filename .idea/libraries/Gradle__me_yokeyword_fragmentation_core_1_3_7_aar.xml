@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: me.yokeyword:fragmentation-core:1.3.7@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/fragmentation-core-1.3.7.aar/eccbd262f44ecf8caafd8609ce8fc40e/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/fragmentation-core-1.3.7.aar/eccbd262f44ecf8caafd8609ce8fc40e/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/fragmentation-core-1.3.7.aar/eccbd262f44ecf8caafd8609ce8fc40e/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.yokeyword/fragmentation-core/1.3.7/95b79a9bc5c7aeef99aac9cb2a2e999de86e7abe/fragmentation-core-1.3.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

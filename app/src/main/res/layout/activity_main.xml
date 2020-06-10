@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_weight="1"
+        android:background="@color/miyue_common_bg"
+        android:id="@+id/fl_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+<android.support.design.widget.TabLayout
+
+    app:tabSelectedTextColor="@color/white"
+    app:tabTextColor="@color/title_background_color"
+    android:background="@color/miyue_common_bg2"
+    android:id="@+id/tabLayout"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+</android.support.design.widget.TabLayout>
+
+</LinearLayout>
